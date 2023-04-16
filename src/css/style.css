@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  --heading-xl: 72px;
+  --heading-l: 48px;
+  --heading-m: 38px;
+  --heading-s: 18px;
+  --heading-xs: 16px;
+  --quote: 20px;
+  --body: 18px;
+  --footer: 15px;
+  --color-primary: #172339;
+  --color-text: #49566d;
+  --color-secundary: #f3ede7;
+  --color-secundary-hover: #faf8f6;
+  --white: white;
+  --gradient-primary: linear-gradient(45deg #a060ff, #cb30e3, #ffa84e);
+  --border-radius-primary: 6px;
+  --border-radius-card: 15px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -23,5 +42,185 @@ a {
 
 body {
   margin: 0;
-  background-image: url(../assets/images/sleep-cat.jpeg);
+  font-family: 'Epilogue', sans-serif;
 }
+
+/* Este mediaquery es para móvil */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 38px;
+  padding: 1rem;
+}
+
+/* Este mediaquery es para móvil */
+.button {
+  color: var(--color-primary);
+  background-color: var(--white);
+  border: 1px solid #172339;
+  border-radius: var(--border-radius-primary);
+  font-size: var(--body-s);
+  padding: 14px 24px;
+  font-weight: 700;
+}
+
+/* Este mediaquery es para móvil */
+.section {
+  padding: 1rem;
+}
+
+/* Este mediaquery es para móvil */
+.image-line{
+  width: 150px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* Este mediaquery es para móvil */
+.title {
+  font-size: var(--heading-m);
+  font-weight: 700;
+  line-height: 44px;
+  color: var(--color-primary);
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+/* Este mediaquery es para móvil */
+.text {
+  font-size: var(--heading-xs);
+  color: var(--color-text);
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+/* Este mediaquery es para móvil */
+.button--primary-gradient {
+  background-color: var(--color-primary);
+  color: var(--white);
+  display: inline-block;
+  margin-bottom: 55px;
+}
+
+/* Este mediaquery es para móvil */
+.image {
+  margin-bottom: 56px;
+}
+
+/* Este mediaquery es para móvil */
+.section-numbers {
+  text-align: center;
+  margin-bottom: 237px;
+}
+
+/* Este mediaquery es para móvil */
+.title-numbers {
+  font-size: var(--heading-l);
+  color: var(--color-primary);
+  margin: 0;
+}
+
+/* Este mediaquery es para móvil */
+.text-numbers {
+  font-size: var(--heading-xs);
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: var(--color-text);
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+/* Este mediaquery es para móvil */
+.div-jeremy {
+  max-width: 400px;
+  position: absolute;
+  width: 400px;
+  top: 1200px;
+  left: 65px;
+  margin-bottom: 40px;
+}
+
+
+/* Este mediaquery es para móvil */
+.section-jeremy {
+  background-color: var(--color-primary);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+  padding-top: 300px; 
+  border-radius: var(--border-radius-card);
+}
+
+/* Este mediaquery es para móvil */
+.title-jeremy {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Este mediaquery es para móvil */
+.text-jeremy {
+  font-size: var(--heading-s);
+  color: var(--color-secundary-hover);
+  line-height: 32px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+/* Este mediaquery es para móvil */
+.name-jeremy {
+  font-size: var(--heading-s);
+  color: var(--color-secundary-hover);
+  line-height: 32px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+/* Este mediaquery es para móvil */
+.signature-jeremy {
+  font-size: var(--heading-xs);
+  color: var(--color-secundary-hover);
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  margin-bottom: 64px;
+  font-weight: 400;
+}
+
+/* Este mediaquery es para móvil */
+.footer{
+  background-color: var(--color-secundary);
+  padding-top: 56px;
+  padding-bottom: 80px;
+  padding-right: 125px;
+  padding-left: 125px;
+  text-align: center;
+  
+}
+
+/* Este mediaquery es para móvil */
+.logo-footer{
+  width: 80px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 50px;
+  
+}
+
+/* Este mediaquery es para móvil */
+.text-footer{
+ margin-bottom: 33px;
+}
+
+/* Este mediaquery es para móvil */
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
