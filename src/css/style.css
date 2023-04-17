@@ -42,7 +42,7 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
 }
 
 /* Este mediaquery es para móvil */
@@ -71,10 +71,10 @@ body {
 }
 
 /* Este mediaquery es para móvil */
-.image-line{
+.image-line {
   width: 150px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Este mediaquery es para móvil */
@@ -143,15 +143,21 @@ margin-right: auto;
   margin-bottom: 40px;
 }
 
-
 /* Este mediaquery es para móvil */
 .section-jeremy {
   background-color: var(--color-primary);
   color: var(--white);
   text-align: center;
   padding: 1rem;
-  padding-top: 300px; 
+  padding-top: 300px;
   border-radius: var(--border-radius-card);
+}
+
+/* Este mediaquery es para móvil */
+.line {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 /* Este mediaquery es para móvil */
@@ -191,36 +197,30 @@ margin-right: auto;
 }
 
 /* Este mediaquery es para móvil */
-.footer{
+.footer {
   background-color: var(--color-secundary);
   padding-top: 56px;
   padding-bottom: 80px;
   padding-right: 125px;
   padding-left: 125px;
   text-align: center;
-  
 }
 
 /* Este mediaquery es para móvil */
-.logo-footer{
+.logo-footer {
   width: 80px;
- margin-left: auto;
- margin-right: auto;
- margin-bottom: 50px;
-  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 /* Este mediaquery es para móvil */
-.text-footer{
- margin-bottom: 33px;
+.text-footer {
+  margin-bottom: 33px;
 }
 
 /* Este mediaquery es para móvil */
-.icons{
+.icons {
   display: flex;
   justify-content: space-between;
 }
-
-
-
-
