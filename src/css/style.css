@@ -56,6 +56,13 @@ body {
   padding: 1rem;
 }
 
+/* Este mediaquery es para tablet */
+@media screen and (min-width: 1140px) {
+  .header {
+    padding: 50px 165px;
+  }
+}
+
 /* Este mediaquery es para móvil */
 .button {
   color: var(--color-primary);
@@ -76,6 +83,7 @@ body {
 @media screen and (min-width: 768px) {
   .section {
     display: flex;
+    padding: 0 165px;
   }
 }
 
@@ -112,6 +120,15 @@ body {
   }
 }
 
+/* Este mediaquery es para desktop */
+@media screen and (min-width: 1140px) {
+  .title {
+    font-size: 72px;
+    line-height: 78px;
+    margin-bottom: 40px;
+  }
+}
+
 /* Este mediaquery es para móvil */
 .text {
   font-size: var(--heading-xs);
@@ -129,12 +146,27 @@ body {
   }
 }
 
+/* Este mediaquery es para desktop */
+@media screen and (min-width: 1140px) {
+  .text {
+    width: 350px;
+    margin-bottom: 52px;
+  }
+}
+
 /* Este mediaquery es para móvil */
 .button--primary-gradient {
   background-color: var(--color-primary);
   color: var(--white);
   display: inline-block;
   margin-bottom: 55px;
+}
+
+/* Este mediaquery es para desktop */
+@media screen and (min-width: 1140px) {
+  .button--primary-gradient {
+    margin-bottom: 0;
+  }
 }
 
 /* Este mediaquery es para móvil */
